@@ -23,6 +23,13 @@ func (d lowlevel_device) PrintData() {
 	}
 }
 
+func Len(d Device) int {
+	return len(d.(*lowlevel_device).storage)
+}
+
 func NewDevice() Device {
 	return &lowlevel_device{}
 }
+
+// FURTHER NOTE:-
+// Interface is just a way of exposing of what is expected out of an API
