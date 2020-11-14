@@ -19,7 +19,7 @@ another.
 ### Sumarry
 * Create the mediator as kind of a central component, and then each object in the system
   points to the mediator.
-a. e.g. assign a field in factor function
+   * e.g. assign a field in factor function
 * Mediator engages in bidrectional communication with it's connected components.
 * Mediator has methods the components can call
 * Components have methods the mediator can call
